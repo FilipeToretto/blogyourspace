@@ -11,7 +11,7 @@ var config = {
 // Initialize Firebase
 firebase.initializeApp(config);
 
-var leadsRef = firebase.database()
+var leadsRef = firebase.database();
 
 let meuIP = getIp(function (meuIP) {
 
